@@ -521,7 +521,7 @@ meshFile.write("   Layers {1};\n")
 meshFile.write("   Recombine;\n")
 meshFile.write("}\n\n")
 
-""" Writing the different patches definition into the mesh file """
+""" Writing the different patches definitions into the mesh file """
 meshFile.write("Physical Surface('inlet') = {469, 465};\n")
 meshFile.write("Physical Surface('outlet') = {477};\n")
 meshFile.write("Physical Surface('up') = {461};\n")
